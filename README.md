@@ -15,8 +15,9 @@ codebase is available at:
 
 https://wiki.opensense.org/index.php/Develop:Architecture
 
-Our aim is to gradually evolve to a new codebase instead of using a
-big bang approach into something new.
+General plan is to GPL v3 entire codebase, then convert to openbsd, so pf will be faster, base will be more secure (real ASLR, W^X, etc., not HardenedBSD noise).
+
+By converting to GPL license, codebase will always be free from trademark challenge by Deciso.
 
 Build tools
 ===========
